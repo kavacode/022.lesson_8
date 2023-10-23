@@ -1,12 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>022.lesson_8</title>
+	<link rel="stylesheet" href="css/style.css" />
 </head>
+
 <body>
 	<h1>Homework #22</h1>
+	<div id="smiles">
+		<p>Выберите понравившийся вам смайл:</p>
+		<div class="smiley" onclick="vote(0)">&#128578;</div>
+		<div class="smiley" onclick="vote(1)">&#128579;</div>
+		<div class="smiley" onclick="vote(2)">&#128521;</div>
+		<div class="smiley" onclick="vote(3)">&#129315;</div>
+		<div class="smiley" onclick="vote(4)">&#128564;</div>
+	</div>
+	<div id="voteCounts"></div>
 	<script src="/js/script.js"></script>
 </body>
+
 </html>

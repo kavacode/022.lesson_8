@@ -1,0 +1,9 @@
+.smiley {
+	font-size: 40px;
+	cursor: pointer;
+	display: inline-block; 
+ }
+ #smiles {
+	margin-bottom: 20px;
+ }
+ 
